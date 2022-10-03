@@ -401,7 +401,7 @@
         </div>
         <div>
           <strong class="footer-title">Підпишіться на розсилку</strong>
-          <form action="" class="form-footer">
+          <form class="form-footer">
             <input type="email" class="input-footer" required placeholder="E-mail">
             <button type="submit" class="hero-button sub-footer">Підписатися
               <svg class="icon-mail" width="24" height="24">
@@ -457,13 +457,15 @@
             </div>
             
             <div class="personal contract">
-              <input type="checkbox" name="contarct-ok" id="contarct-ok" class="contarct-ok visually-hidden"></input>
+              <input type="checkbox" name="contarct-ok" id="contarct-ok" class="contarct-ok visually-hidden">
               <label for="contarct-ok" class="personal-title">
-              <div class="personal-contract">
-                <svg class="modal-icon-contract" width="16" height="15">
-                  <use href="./images/icons.svg#icon-modal4ok"></use>
-                </svg>
-              </div>Погоджуюся з розсилкою та приймаю <a href="" class="terms-contract">Умови договору</a></label>              
+                <span class="personal-contract">
+                  <svg class="modal-icon-contract" width="16" height="15">
+                    <use href="./images/icons.svg#icon-modal4ok"></use>
+                  </svg>
+                </span>
+                Погоджуюся з розсилкою та приймаю <a href="" class="terms-contract">Умови договору</a>
+              </label>              
             </div>
 
             <button type="submit" class="hero-button submit">Відправити</button>
