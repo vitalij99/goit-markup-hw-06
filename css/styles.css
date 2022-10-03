@@ -528,7 +528,7 @@ button.sub-footer {
     fill: var(--active-bg-color);
 }
 
-.personal .personal-title {
+.contract .personal-title {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -553,7 +553,7 @@ button.sub-footer {
 .personal-comment{
     display: block;
     height: 120px;
-
+    padding-left: 16px;
     resize: none;
     outline: none;
 }
